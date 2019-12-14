@@ -7,9 +7,9 @@ const Maps = withGoogleMap(props => {
   let latLong = props.location.split(' ').map(el => parseFloat(el));
   const mapRef = React.createRef();
   React.useEffect(() => {
-    console.log(latLong);
     mapRef &&
       mapRef.current &&
+      // eslint-disable-next-line no-undef
       mapRef.current.panTo(new google.maps.LatLng(latLong[0], latLong[1]));
   }, [props.location]);
   return (

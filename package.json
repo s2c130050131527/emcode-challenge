@@ -1,7 +1,7 @@
 {
-  "name": "smartq-frontend-challengwe",
+  "name": "emcode-challengwe",
   "version": "0.1.0",
-  "description": "SmartQ Hiring Challenge on Hackerearth",
+  "description": "Emcode google maps hiring ",
   "engines": {
     "node": ">=8",
     "npm": ">=3"
@@ -181,6 +181,8 @@
       "jquery": true,
       "jest": true
     },
-    "globals": {}
+    "globals": {
+      "google": true
+    }
   }
 }
